@@ -1,3 +1,4 @@
+import MyselfComponent from "../components/MyselfComponent";
 
 const Home = () => {
 
@@ -21,7 +22,8 @@ const Home = () => {
 
             </div>
 
-            <div className="myselfie">이미지 넣을 곳</div>
+            <MyselfComponent />
+
             
 
         </div>
