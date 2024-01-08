@@ -2,6 +2,8 @@ import { readConfigFile } from "typescript";
 import Education from "../components/resume/Education";
 import Experience from "../components/resume/Experience";
 import MyResume from "../components/resume/MyResume";
+import Technology from "../components/resume/Technology";
+import ProExperience from "../components/resume/ProExperience";
 
 const Resume = () =>{
 
@@ -11,7 +13,7 @@ const Resume = () =>{
 
             <div> myImg</div>
 
-
+            
             <MyResume />
 
             <Education
@@ -21,11 +23,15 @@ const Resume = () =>{
             />
 
             <Experience
-                 company="Company Name"
+                 company="KH 정보 교육원"
                  position="Web Developer"
-                 date="January 2022 - Present"
+                 date="2023.02 - 2023.09"
                 responsibilities="Responsibilities and achievements..."
             />
+
+            <Technology />
+
+            <ProExperience />
                 
             
         </div>

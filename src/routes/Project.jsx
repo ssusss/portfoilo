@@ -1,4 +1,4 @@
-import { readConfigFile } from "typescript";
+
 
 const Project = () => {
 
@@ -8,7 +8,7 @@ const Project = () => {
                 <div className="projectInfo">
                     <h2>ProjectName</h2>
                     <h2>contents</h2>
-                    
+
                 </div>
             </div>
         </div>

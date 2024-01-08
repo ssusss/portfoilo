@@ -1,6 +1,6 @@
 const MyselfComponent = () => {
 
-    const selfUrl= "https://drive.google.com/file/d/1dmjGn9EBN0t1xWp3OKZSsOG9HtMZboe9/view?usp=sharing";
+    const selfUrl= "https://www.dropbox.com/scl/fi/g5zdif0yxg4u8qd7v54t5/1-1.jpg?rlkey=pk56ogs12ti51150em1lzdyzj&dl=0?raw=1";
 
     return(
 

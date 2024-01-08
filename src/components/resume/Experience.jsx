@@ -4,7 +4,7 @@ const Experience = ({ company, position, date, responsibilities }) =>{
     return(
         
 
-        <section className="experience">
+        <div className="experience">
             <h2>Work Experience</h2>
             <ul>
                 <li>
@@ -14,7 +14,7 @@ const Experience = ({ company, position, date, responsibilities }) =>{
                     <p>{responsibilities}</p>
                 </li>
             </ul>
-        </section>
+        </div>
     )
 }
 

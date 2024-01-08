@@ -5,18 +5,29 @@ const MyResume = () => {
 
       
 
-        <section className="experience">
-            <h2>인적 사항</h2>
-            <ul>
-                <li>
-                        <strong> name</strong>
-                        <strong>ENG name</strong>
-                        <p>주소입력칸</p>
-                        <p>생년월일입력</p>
-                        <p>이메일 입력</p>
-                </li>
-            </ul>
-        </section>
+        <div className="experience">
+
+            <div className="ResumeName">
+                    <h1>한글이름</h1>
+                    <h3>ENG Name</h3>
+            </div>
+
+            
+            <div className="miniInfo">
+                <div>
+                    <h3>인적사항</h3>
+                </div>
+
+                <div>
+                    <h4>생년월일입력</h4>
+                    <h4>주소입력</h4>
+                    <h4>이메일</h4>
+                    <h4>전화번호</h4>
+                </div>
+                   
+            </div>
+           
+        </div>
 
 
     )
