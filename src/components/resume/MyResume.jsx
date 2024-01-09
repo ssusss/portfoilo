@@ -5,9 +5,9 @@ const MyResume = () => {
 
       
 
-        <div className="experience">
+        <div className="resmecontentTopInfo">
 
-            <div className="ResumeName">
+            <div className="resumeName">
                     <h1>한글이름</h1>
                     <h3>ENG Name</h3>
             </div>
