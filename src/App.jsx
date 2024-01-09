@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Layout from './layout/Layout';
 import Home from './routes/Home';
 import Project from './routes/Project';
 import Resume from './routes/Resume';
-import PageNotFound from './routes/PageNotFuond';
+import PageNotFound from './routes/PageNotFound';
 import Visite from './routes/Visite';
 
 function App() {
