@@ -1,6 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
 }
 
 
@@ -73,7 +75,7 @@
   margin: 0 10%;
 }
 
-/* resume */
+
 
 /* Footer */
 
@@ -81,6 +83,82 @@
 
   margin-top: 50px;
 }
+
+
+/* Resume --------- */
+
+
+
+
+.resumeContainer {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+.resumeContainer section {
+  margin-bottom: 30px;
+}
+
+.resumeContainer h2 {
+  color: #333;
+}
+
+.resumeContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resumeContainer li {
+  margin-bottom: 10px;
+
+}
+
+.education,
+.experience {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.resumeTopContent {
+  margin-top: 100px;
+  display: flex;
+}
+
+.topContentImg{
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.resmecontentTopInfo{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.euduContent{
+  display: flex;
+}
+
+
+.reumeBottomContent{
+  display: flex;
+}
+
+
+
+
 
 
 /* 

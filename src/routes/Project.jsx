@@ -26,7 +26,7 @@ const Project = () => {
             </Carousel>
         </div>
     )
-    
 }
+
 
 export default Project;
