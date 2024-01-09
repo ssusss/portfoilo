@@ -52,11 +52,25 @@
 .projectContainer{
   display: flex;
   text-align: center;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.projectInfo{
-  font-size: 30px;
-  border: 1px,solid,black;
+.backImage {
+  width: 1200px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+}
+
+.projectInfoContainer {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
 }
 
 /* resume */
