@@ -29,9 +29,6 @@
   font-family:EASTARJET-Medium;
 }
 
-
-
-
 /* header nav */
 .headerContainer{
   display: flex;
@@ -81,26 +78,77 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  width: 1200px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 20px auto;
 }
 
 .backImage {
-  width: 1200px;
+
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-next {
   width: 10%;
+  right: -100px;
+}
+
+.carousel-control-prev {
+  width: 10%;
+  left: -100px;
 }
 
 .projectInfoContainer {
   position: absolute;
   top: 0;
-  width: 80%;
-  height: 100%;
-  margin: 0 10%;
+  width: 100%;
+  height: 95%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
 }
 
+.projectInfoContainer h1 {
+  color: #444;
+}
+
+.projectInfoContainer h5 {
+  font-weight: bold;
+  color: #444;
+}
+
+.projectInfoContainer .badge {
+  --bs-badge-padding-y: 0.45em;
+  --bs-badge-font-weight: 600;
+  --bs-badge-color: #eee;
+}
+
+.projectInfoContainer > p {
+  font-size: 0.8em;
+  font-family: EASTARJET-Medium;
+  color: #777;
+}
+
+.projectInfoContainer > div > div > p {
+  font-size: 0.9em;
+  font-family: EASTARJET-Medium;
+  color: #666;
+}
+
+.projectInfoContainer .functions {
+  font-size: 0.9em;
+  font-family: EASTARJET-Medium;
+  color: #666;
+}
+
+.gitUrl {
+  font-size: 0.9em;
+  font-family: EASTARJET-Medium;
+  color: #666;
+  margin-left: 5px;
+}
+
+.originFont {
+  font-family: var(--bs-body-font-family);
+  font-size: 0.9rem;
+}
 
 
 /* Footer */
