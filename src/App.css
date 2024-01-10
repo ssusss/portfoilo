@@ -166,10 +166,13 @@
 
 .resumeContainer {
 
+  width: 1000px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+ 
+  background-color: #ddd;
   
 }
 
@@ -181,6 +184,7 @@
 
 .resumeContainer h2 {
   color: #333;
+  
 }
 
 .resumeContainer ul {
@@ -199,6 +203,9 @@
   padding-bottom: 20px;
   margin-bottom: 20px;
   
+}
+.education {
+  margin-top: 30px;
 }
 
 .resumeTopContent {
@@ -219,16 +226,33 @@
 .resmecontentTopInfo{
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+}
+.miniInfo h3{
+  margin-top: 20px;
+  
 }
 
-.euduContent{
+.euduContent {
   display: flex;
+  margin-top: 20px;
+}
+.euduContent div{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .reumeBottomContent{
   display: flex;
 }
+.reumeBottomContent div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+
 
 
 
