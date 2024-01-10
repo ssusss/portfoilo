@@ -4,6 +4,7 @@ import BackgroundCarouselImage from '../components/project/BackgroundCarouselIma
 
 const Project = () => {
 
+
     // 배열 형식 => ["프로젝트명", "이미지url","기간", "참여인원", "간단설명", ["기능1", "기능2", "기능3"], ["기술스택1", "기술스택2", "기술스택3"]];
     const myProject1 = [
         "프로젝트명", 
@@ -15,6 +16,7 @@ const Project = () => {
         ["기술스택1", "기술스택2", "기술스택3"]
     ];
     const myProject1_github = 'https://github.com/newTypeo/dagachi';
+
 
     return (
         <div className="projectContainer">
