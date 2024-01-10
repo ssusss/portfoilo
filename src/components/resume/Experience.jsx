@@ -6,10 +6,14 @@ const Experience = ({ projectName, proInfo, date, add }) =>{
 
         <div className="experience">
             <h2>Work Experience _학원 수료일</h2>
-            <h4>{company}</h4>
-            <h4>{position}</h4>
-            <h4>{date}</h4>
-            <h4>{responsibilities}</h4>
+
+            <div>
+                <h4>{projectName}</h4>
+                <h4>{proInfo}</h4>
+                <h4>{date}</h4>
+                <h4>{add}</h4>
+            </div>
+            
         </div>
     )
 }
