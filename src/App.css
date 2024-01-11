@@ -30,18 +30,21 @@
 }
 
 /* header nav */
+.header {
+  box-shadow: 0 3px 10px #ccc;
+}
+
 .headerContainer{
   display: flex;
-  font-size: 30px;
-  margin-bottom: 20px;
+  margin: 0 12%;
 }
 
 .headerContainer #navTitle{
-  font-size: 40px;
-  margin-right: auto;
+  font-size: 1.2em;
+  color: #444;
 }
 .headerContainer .me-auto{
-  margin-left: auto;
+  margin-right: 0 !important;
 }
 
 /* home  */
@@ -80,10 +83,6 @@
   justify-content: center;
   width: 1000px;
   margin: 20px auto;
-}
-
-.backImage {
-
 }
 
 .carousel-control-next {

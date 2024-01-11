@@ -17,7 +17,7 @@ const Header = () =>{
     };
 
     return(
-        <div>
+        <div className='header'>
             <Navbar bg="light" data-bs-theme="light">
                 <Container className='headerContainer'>
                     <Navbar.Brand href="/" data-to="/" id='navTitle' onClick={onLinkClick}>ReadMe</Navbar.Brand>
@@ -25,7 +25,6 @@ const Header = () =>{
                         <Nav.Link href="#home" data-to="/" onClick={onLinkClick}>Home</Nav.Link>
                         <Nav.Link href="#features" data-to='resume' onClick={onLinkClick}>Resume</Nav.Link>
                         <Nav.Link href="#pricing" data-to='project' onClick={onLinkClick}>Project</Nav.Link>
-                        <Nav.Link href="#pricing" data-to='visite' onClick={onLinkClick}>방명록</Nav.Link>
                     </Nav>
                 </Container>
                 
