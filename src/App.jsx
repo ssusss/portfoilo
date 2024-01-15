@@ -6,7 +6,6 @@ import Home from './routes/Home';
 import Project from './routes/Project';
 import Resume from './routes/Resume';
 import PageNotFound from './routes/PageNotFound';
-import Visite from './routes/Visite';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path='project' element={<Project/>}/>
             <Route path='resume' element={<Resume/>}/>
-            <Route path='visite' element={<Visite/>}/>
             <Route path='*' element={<PageNotFound/>}/>
           </Route>
         </Routes>
