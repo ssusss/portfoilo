@@ -27,7 +27,7 @@ const MyResume = () => {
             
             <div className="miniInfo">
 
-                <div>
+                <div style={{textAlign:"left", marginLeft:"82px", marginTop:"30px"}}>
                     <h3>{resumeInfo.miniInfo.birthDay}</h3>
                     <h3>{resumeInfo.miniInfo.address}</h3>
                     <h3>{resumeInfo.miniInfo.email}</h3>
