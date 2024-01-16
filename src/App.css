@@ -30,6 +30,13 @@
   font-family:EASTARJET-Medium;
 }
 
+.line {
+  width: 1024px;
+  height: 1px;
+  margin: 20px 0 40px 0;
+  background-color: white;
+}
+
 /* header nav */
 .header {
   box-shadow: 0 3px 10px #ccc;
@@ -106,9 +113,31 @@
 .projectContainer{
   display: flex;
   text-align: center;
-  justify-content: center;
+  background-color: #66b3ff;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.projectContainer h1 {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.mainCarousel {
   width: 1000px;
-  margin: 20px auto;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 20px #1a77d3;
+}
+
+.mainCarousel > .carousel-indicators > button {
+  background-color: #66b3ff;
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  margin-left: 6px;
+  border-radius: 50%;
 }
 
 .carousel-control-next {
@@ -126,11 +155,10 @@
   top: 0;
   width: 100%;
   height: 95%;
-  border: 1px solid #ccc;
-  border-radius: 15px;
+  
 }
 
-.projectInfoContainer h1 {
+.projectInfoContainer h2 {
   color: #444;
 }
 
@@ -279,9 +307,18 @@
   margin-top: 20px;
 }
 
-.technology{
-  margin-top: 30px;
-  border-bottom: 1px solid #ccc;
+/* Technology */
+
+.technologyContainer {
+  background-color: lightpink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.technologyContainer h1{
+  margin-top: 50px;
+  color: white;
 }
 
 /* Features */

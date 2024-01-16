@@ -15,14 +15,14 @@ const ExampleCarouselImage = ({ projectInfo, myProject1_github }) => {
     return (
         <div>
             <img className="backImage"
-                src="img/wBackground.png"  // 실제 이미지 소스로 교체
+                src="img/tBackground.png"  // 실제 이미지 소스로 교체
             />
 
             <div className="projectInfoContainer" style={{padding: '20px'}}>
-                <h1 className='font_pilseung'>{title}</h1>
+                <h2 className='font_eastar'>{title}</h2>
                 <p>{term} | {participants}</p>
                 <div style={{display: 'flex'}}>
-                    <div style={{width: '40%', textAlign: 'left'}}>
+                    <div style={{width: '40%', textAlign: 'left', paddingLeft: '20px'}}>
                         <p style={{marginTop: '5px'}}>{explanation}</p>
                         <div style={{borderTop: '1px solid black', paddingTop: '20px'}}>
                             <h5>주요 기능</h5>
