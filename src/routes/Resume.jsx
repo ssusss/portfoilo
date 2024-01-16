@@ -32,7 +32,7 @@ const Resume = () =>{
             <div className="reumeBottomContent">
                 <WorkExperience />
             </div>
-                <Technology />
+            <Technology />
             
 
                 

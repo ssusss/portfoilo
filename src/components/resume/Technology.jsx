@@ -4,8 +4,9 @@ const Technology = () =>{
 
     return(
 
-        <div className="technology">
-            <div><h2 className="font_pilseung">Skill</h2></div>
+        <div className="technologyContainer">
+            <h1 className="font_pilseung">Skills</h1>
+            <div className="line"></div>
             
             <div style={{display:"flex", margin:"20px"}}>
                 <div style={{marginRight:"20px"}}>
