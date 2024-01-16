@@ -4,8 +4,7 @@ import Features from "../components/home/Features";
 import Project from "./Project";
 import Resume from "./Resume";
 
-
-const Home = () => {
+const OnepageVer=()=>{
 
     return(
         <div >
@@ -15,17 +14,17 @@ const Home = () => {
                 <MyselfComponent />
             </div>
 
-           <div>
-                <Features />
-           </div>
+            <div>
+                    <Features />
+            </div>
 
-           <Resume/>
-           <Project/>
+            <Resume/>
+            <Project/>
             
-            
+        
 
         </div>
     )
 }
 
-export default Home;
+export default OnepageVer;
