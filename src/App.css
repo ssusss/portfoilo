@@ -18,6 +18,7 @@
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 20px;
+  
 }
 
 .font_pilseung {
@@ -54,6 +55,9 @@
   border: 1px solid rebeccapurple;
   display: flex;
   top: 100px;
+  width: 1500px;
+  margin: auto;
+
 }
 .homeContainer h1{
   font-size: 60px;
@@ -61,19 +65,41 @@
 .myselfie{
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid rebeccapurple;
   width: 400px;
   height: 500px;
-  background-color: red;
+  
   
 }
 
+.myselfie img{
+  width: 500px;
+  height: 500px;
+}
+
 .homeProfile {
-  border: 1px solid rebeccapurple;
-  margin-left: auto;
-  margin-right: auto;
+  
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
 
 }
+
+.homeProfile h3,.homeProfile h4{
+  font-family: 'EASTARJET-Medium', sans-serif;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.homeProfile h1 {
+  font-size: 2em;
+  font-family: PilseungGothic;
+  margin-bottom: 10px;
+}
+
 
 /* Project */
 
@@ -244,6 +270,8 @@
 
 .reumeBottomContent{
   display: flex;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
 }
 .reumeBottomContent div{
   margin-left: auto;
@@ -251,8 +279,66 @@
   margin-top: 20px;
 }
 
+.technology{
+  margin-top: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Features */
 
 
+.features{
+  width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chat-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat {
+  padding: 20px;
+}
+
+.message {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.content {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.sent .content {
+  background-color: #66b3ff;
+  color: white;
+  align-self: flex-end;
+}
+
+.content {
+  font-family:EASTARJET-Medium;
+  font-size: 25px;
+}
 
 
 

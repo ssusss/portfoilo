@@ -31,8 +31,8 @@ const Resume = () =>{
 
             <div className="reumeBottomContent">
                 <WorkExperience />
-                <Technology />
             </div>
+                <Technology />
             
 
                 
