@@ -19,11 +19,6 @@ const Home = () => {
                 <Features />
            </div>
 
-           <Resume/>
-           <Project/>
-            
-            
-
         </div>
     )
 }

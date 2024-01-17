@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-
+import React, {useRef} from 'react'
 
 
 const Header = () =>{
@@ -15,6 +15,11 @@ const Header = () =>{
         console.log(path);
         navigate(path);
     };
+
+  
+    const moveContent1 = useRef<HTMLDivElement>(null);
+    const moveContent2 = useRef<HTMLDivElement>(null);
+    const moveContent3 = useRef<HTMLDivElement>(null);
 
     return(
         <div className='header'>
