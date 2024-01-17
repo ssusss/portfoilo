@@ -5,6 +5,7 @@ import Education from "../components/resume/Education";
 import MyResume from "../components/resume/MyResume";
 import Technology from "../components/resume/Technology";
 import WorkExperience from "../components/resume/WorkExperience";
+import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Resume from "./Resume";
 
@@ -19,12 +20,14 @@ const OnepageVer=()=>{
             </div>
             */}
 
+            <AboutMe />
+
             <Features />
 
 
             <div className="resumeContainer font_eastar">
                 
-                <h1 className="font_pilseung">About Me</h1>
+                {/* <h1 className="font_pilseung">About Me</h1>
                 <div className="line"></div>
 
                 <div className="resumeTopContent " >
@@ -32,10 +35,10 @@ const OnepageVer=()=>{
                     <div className="topContentImg"> myImg</div>
                     <MyResume />
 
-                </div>
+                </div> */}
 
 
-                <Education/>
+                {/* <Education/> */}
 
                 {/* <Experience
                     projectName="프로젝트 이름 / 다같이"
@@ -45,9 +48,9 @@ const OnepageVer=()=>{
                 /> */}
 
 
-                <div className="reumeBottomContent">
+                {/* <div className="reumeBottomContent">
                     <WorkExperience />
-                </div>
+                </div> */}
                 
             </div>
 

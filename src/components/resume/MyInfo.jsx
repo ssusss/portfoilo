@@ -22,11 +22,18 @@ const MyInfo = ()=> {
         <div className="myInfoContainer">
             
             <div className="myInfoContents">
-                <div>
+                 <div>
                     <h4>{academic.university.scName}</h4>
                     <h4>{academic.university.department}</h4>
                     <h4>{academic.university.period}</h4>
                 </div>
+                <div>
+                    <h4>사교성과 커뮤니 케이션 능력을 갖춘 개발자</h4>
+                    <h4>배우고 공부하는 즐거움을 아는 개발자</h4>
+                    <h4>끈기와 뛰어난 체력 기반의 개발자</h4>
+                    <h4>성실함을 갖춘 개발자</h4>
+                </div>
+                
                 <div>
                 <h4>{academic.academy.scName}</h4>
                     <h4>{academic.academy.department}</h4>
@@ -34,10 +41,7 @@ const MyInfo = ()=> {
                     <h4>{academic.academy.scName}에서 6개월간 교육을 받았습니다. 기본적인 cs 지식과 객체지향 프로그래밍에 대해 학습하고 Spring FrameWork와 SpringBoot 를 사용한 프로젝트를 진행하였습니다. </h4>
                     <h4>수료 이후 이론적인 부분이 부족하다고 생각하여 네트워크의 개념과 CS 지식과 리눅스 공부를 진행하였습니다. </h4>
                 </div>
-                <div>
-                    <h2>기술 스택 </h2>
-                    <h2>이미지로 여러개 넣어보자 </h2>
-                </div>
+              
             </div>
 
         </div>
