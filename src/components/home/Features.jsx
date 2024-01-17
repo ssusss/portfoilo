@@ -2,7 +2,7 @@
 
 const Features = () => {
   return (
-    <div className="features">
+    <div className="features" id="myStory">
         <h2 className="font_pilseung" style={{marginTop:"20px", fontSize:"45px"}}>MyStory</h2>
     <   div class="chat">
             <div class="message received">

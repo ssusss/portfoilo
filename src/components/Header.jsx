@@ -12,23 +12,25 @@ const Header = () =>{
 
         
         const path=e.target.dataset.to;
+        const targetElement = document.getElementById(path);
         console.log(path);
-        navigate(path);
+        // navigate(path);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
     };
 
-  
-    const moveContent1 = useRef<HTMLDivElement>(null);
-    const moveContent2 = useRef<HTMLDivElement>(null);
-    const moveContent3 = useRef<HTMLDivElement>(null);
 
     return(
         <div className='header'>
             <Navbar bg="light" data-bs-theme="light">
                 <Container className='headerContainer'>
-                    <Navbar.Brand href="/" data-to="/" id='navTitle' onClick={onLinkClick}>ReadMe</Navbar.Brand>
+                    <Navbar.Brand href="/" data-to="aboutMe" id='navTitle' onClick={onLinkClick}>ReadMe</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" data-to="/" onClick={onLinkClick}>Home</Nav.Link>
-                        <Nav.Link href="#features" data-to='resume' onClick={onLinkClick}>Resume</Nav.Link>
+                        <Nav.Link href="#home" data-to="aboutMe" onClick={onLinkClick}>Home</Nav.Link>
+                        <Nav.Link href="#features" data-to='myStory' onClick={onLinkClick}>MyStory</Nav.Link>
+                        <Nav.Link href="#pricing" data-to='Skill' onClick={onLinkClick}>Skill</Nav.Link>
                         <Nav.Link href="#pricing" data-to='project' onClick={onLinkClick}>Project</Nav.Link>
                     </Nav>
                 </Container>

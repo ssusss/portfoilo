@@ -4,7 +4,7 @@ import MyResume from "../components/resume/MyResume";
 const AboutMe= ()=>{
 
     return(
-        <div className="aboutMeTopContainer" >
+        <div className="aboutMeTopContainer" id="aboutMe" >
             
             <div><h1>About Me</h1></div>
                 

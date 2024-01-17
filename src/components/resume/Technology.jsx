@@ -2,9 +2,10 @@ import { left } from "@popperjs/core";
 
 const Technology = () =>{
 
+
     return(
 
-        <div className="technologyContainer">
+        <div className="technologyContainer" id="Skill">
             <h1 className="font_pilseung">Skills</h1>
             <div className="line"></div>
             
@@ -12,7 +13,7 @@ const Technology = () =>{
                 <div style={{marginRight:"20px"}}>
                     <h4>Back-end</h4>
                     <br/>
-                    <h4>Java</h4>
+                    <h4>java</h4>
                     <h4>SP&Servlet</h4>
                     <h4>MyBatis</h4>
                 
