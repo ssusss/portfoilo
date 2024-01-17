@@ -13,7 +13,7 @@ const Resume = () =>{
 
             <div className="resumeTopContent " >
 
-                <div className="topContentImg"> myImg</div>
+                
                 <MyResume />
 
             </div>

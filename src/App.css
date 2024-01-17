@@ -377,9 +377,34 @@
   font-size: 25px;
 }
 
+/* aboutMe */
+.aboutMeTopContainer {
+  width: 1000px;
+  margin: auto;
+}
 
+.aboutMeTopContent{
+  width: 1000px;
+  display: flex;
+  
+}
+.myInfoContents {
+  text-align: left;
+ margin-left: 30px;
+ margin-top: 40px;
+}
+.myInfoContents div{
+  border-bottom: 1px solid rgb(209, 205, 205);
+  margin-top: 40px;
+}
 
-
+.resmecontentTopInfoVa{
+  border-right: 2px solid black;
+}
+.myInfoContents h4{
+  font-family:EASTARJET-Medium;
+  font-size: 26px;
+}
 
 /* 
 .App-logo {

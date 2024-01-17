@@ -13,11 +13,17 @@ const MyResume = () => {
         }
     }
 
+    const imgSrc="/img/jsyPhoto.jpg";
+
     return(
 
       
 
-        <div className="resmecontentTopInfo">
+        <div className="resmecontentTopInfo resmecontentTopInfoVa">
+
+            <div>
+                <img src={imgSrc}/>
+            </div>
 
             <div className="resumeName font_pilseung">
                     <h1>{resumeInfo.myName.korName}</h1>
@@ -25,7 +31,7 @@ const MyResume = () => {
             </div>
 
             
-            <div className="miniInfo">
+            <div className="miniInfo font_eastar">
 
                 <div style={{textAlign:"left", marginLeft:"82px", marginTop:"30px"}}>
                     <h3>{resumeInfo.miniInfo.birthDay}</h3>
