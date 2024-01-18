@@ -282,6 +282,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  padding-right: 20px;
+}
+
+.resmecontentTopInfo div{
+  margin-bottom: 20px;
 }
 .miniInfo h3{
   margin-top: 20px;
@@ -369,9 +374,20 @@
   width: 1000px;
   margin-top: 50px;
   margin-bottom: 100px;
-  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  
+  
+}
+
+.myStroyBackColor{
+  background-color: #d9efcc;
+  margin-top: 10px;
+  padding-bottom: 1px;
+  padding-top:1px
 }
 .chat-container {
   max-width: 400px;
@@ -423,12 +439,15 @@
   width: 1000px;
   margin: auto;
   margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .aboutMeTopContent{
   width: 1000px;
   display: flex;
-  
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
 }
 .myInfoContents {
   text-align: left;

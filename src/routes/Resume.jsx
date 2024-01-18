@@ -9,7 +9,7 @@ const Resume = () =>{
 
 
     return(
-        <div className="resumeContainer font_eastar">
+        <div className="resumeContainer font_eastar" id="resume">
 
             <div className="resumeTopContent " >
 
