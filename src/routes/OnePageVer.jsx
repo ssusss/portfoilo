@@ -12,7 +12,7 @@ import Resume from "./Resume";
 const OnepageVer=()=>{
 
 
-    
+
     return(
         <div >
             {/* 
@@ -24,7 +24,9 @@ const OnepageVer=()=>{
 
             <AboutMe />
 
-            <Features />
+            <div className="myStroyBackColor">
+                <Features />
+            </div>
 
 
             <div className="resumeContainer font_eastar">
