@@ -21,7 +21,6 @@ const Project = () => {
     return (
         <div className="projectContainer" id="project">
             <h1 className="font_pilseung">Projects</h1>
-            <div className="line"></div>
             <Carousel className="mainCarousel" interval={null} as={'div'} indicatorLabels={[1, 2, 3]}>
                 <Carousel.Item>
                     <BackgroundCarouselImage projectInfo = {myProject1} myProject1_github = {myProject1_github} />

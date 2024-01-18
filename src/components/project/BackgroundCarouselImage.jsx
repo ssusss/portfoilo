@@ -14,9 +14,7 @@ const ExampleCarouselImage = ({ projectInfo, myProject1_github }) => {
 
     return (
         <div>
-            <img className="backImage"
-                src="img/tBackground.png"  // 실제 이미지 소스로 교체
-            />
+            <img className="backImage" src="img/tBackground.png" />
 
             <div className="projectInfoContainer" style={{padding: '20px'}}>
                 <h2 className='font_eastar'>{title}</h2>
