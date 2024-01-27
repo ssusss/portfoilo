@@ -41,19 +41,19 @@ const ExampleCarouselImage = ({ projectInfo, myProject_github, myProject_Url }) 
 
                             {myProject_github !== undefined ? (
                                 <>
-                                    <h5 style={{ marginTop: '30px' }}>GitHub</h5>
+                                    <h5 style={{ marginTop: '20px' , marginBottom: '0px'}}>GitHub</h5>
                                     <a className='gitUrl' href={myProject_github}>{myProject_github}</a>
                                 </>
                             ) : null}
 
                             {myProject_Url !== undefined ? (
                                 <>
-                                    <h5 style={{ marginTop: '30px' }}>Url</h5>
+                                    <h5 style={{ marginTop: '20px' , marginBottom: '0px'}}>Url</h5>
                                     <a className='gitUrl' href={myProject_Url}>{myProject_Url}</a>
                                 </>
                             ) : null}
 
-                            <h5 style={{ marginTop: '30px' }}>기술 스택</h5>
+                            <h5 style={{ marginTop: '20px' , marginBottom: '4px'}}>기술 스택</h5>
                             {skills.map((skill, index) => (
                                 <Badge bg="primary" key={`skill-${index}`} style={{ marginLeft: '5px' }}>{skill}</Badge>
                             ))}

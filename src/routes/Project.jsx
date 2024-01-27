@@ -12,7 +12,7 @@ const Project = () => {
         "참여인원 : 7", 
         "교육원에서 파이널 프로젝트로 수행한 취미생활을 공유하는 친목 도모 목적의 사이트입니다.", 
         ["모임을 달력에 기록, 길 안내까지", "친목을 도모하는 단체 채팅", "내 마음대로 취향껏 고르는 레이아웃", "자신의 위치를 기준으로 가까운 모임 검색"], 
-        ["Javascript", "jQuery", "Bootstrap", "Java", "Oracle", "Spring", "Github"]
+        ["Javascript", "JQuery", "Bootstrap", "Java", "Oracle", "Spring", "GitHub"]
     ];
     const myProject1_github = 'https://github.com/newTypeo/dagachi';
     
@@ -23,7 +23,7 @@ const Project = () => {
         "참여인원 : 1", 
         "같이 게임을 플레이하는 사람들과 평소 시간을 조율할 때 불편했던 부분들을 보완한 스케쥴러 사이트를 제작해봤습니다. Oracle Cloud Infrastructure로 배포하여 현재 운영중인 사이트입니다.", 
         ["smilegate API를 활용해 캐릭터 조회 가능", "하루에 한 번씩 레벨 자동 갱신", "레이드, 시간, 설명을 포함한 일정 생성 및 수정", "일정 참가 투표"], 
-        ["Javascript", "jQuery", "Bootstrap", "Java", "Oracle", "Spring", "OCI", "ubuntu"]
+        ["Javascript", "JQuery", "Bootstrap", "Java", "Oracle", "Spring", "OCI", "Ubuntu"]
     ];
     const myProject2_Url = 'https://elloas.com';
 
@@ -33,10 +33,11 @@ const Project = () => {
         "기간 : 2024.01.08 ~ 2023.01.27", 
         "참여인원 : 2", 
         "포트폴리오 목적으로 제작한 사이트입니다. React를 학습하기 위해 React로 제작 후 Vercel를 이용해 배포했습니다.", 
-        ["간단한 자기 소개", "기술 스택", "프로젝트 경험"], 
-        ["React", "Javascript", "Bootstrap", "Vercel"]
+        ["간단한 자기 소개", "기술 스택 소개", "프로젝트 경험 소개"], 
+        ["React", "Javascript", "Bootstrap", "GitHub", "Vercel"]
     ];
-    
+    const myProject3_github = 'https://github.com/ssusss/portfoilo';
+    const myProject3_Url = 'https://kdc-portfoilo.vercel.app';
 
 
 
@@ -55,7 +56,7 @@ const Project = () => {
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                    <BackgroundCarouselImage projectInfo = {myProject3} />
+                    <BackgroundCarouselImage projectInfo = {myProject3} myProject_github={myProject3_github} myProject_Url={myProject3_Url}/>
                     
                 </Carousel.Item>
                 
