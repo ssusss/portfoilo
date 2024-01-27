@@ -2,7 +2,7 @@ const Footer = () => {
 
     return(
         <div className="footerContainer">
-            <h5> 푸터공간입니다 </h5>
+            <h6>CopyRight © 2024. Kim Dongchan. All rights reserved. </h6>
         </div>
     )
 }

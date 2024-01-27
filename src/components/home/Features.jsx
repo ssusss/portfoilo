@@ -1,39 +1,29 @@
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import Clock from "./Clock";
 
 const Features = () => {
-  return (
-    <div className="features" id="myStory">
-        <h2 className="font_pilseung" style={{marginTop:"20px", fontSize:"45px"}}>MyStory</h2>
-    <   div class="chat">
-            <div class="message received">
-                <span class="content">당신을 소개해주세요 😊</span>
+
+    function onClockClick() {
+        const clockContainer = document.querySelector('.clockContainer');
+        clockContainer.classList.add('show');
+    };
+
+    return (
+        <div className="features" id="home">
+            <h1 className="feature_title">웹 개발자 포트폴리오</h1>
+            <div className="line"></div>
+            <div className="feature_content">
+                <h3>안녕하세요.</h3>
+                <h3>수학적인 개발자, 김동찬의 포트폴리오입니다.</h3>
             </div>
-            <div class="message sent">
-                <span class="content">안녕하세요! 반갑습니다! 😊
-                    <p>성실함과 끈기를 갖춘 신입 개발자 정상윤입니다!</p>
-                </span>
-                
+            <FontAwesomeIcon icon={faClock} size="2xl" className="clockIcon" onClick={onClockClick}/>
+            <div className="clockContainer">
+                <Clock></Clock>
             </div>
-            <div class="message received">
-                <span class="content">본인의 장점과 단점은 무엇인가요? 😊</span>
-            </div>
-            <div class="message sent">
-                <span class="content">
-                    <p>
-                     저의 장점은 커뮤니케이션 능력과 배움을 즐기는 것입니다!
-                    </p>
-                </span>
-            </div>
-            <div class="message received">
-                <span class="content">안녕하세요! 😊</span>
-            </div>
-            <div class="message sent">
-                <span class="content">안녕하세요! 반갑습니다! 👋</span>
-            </div>
-        
+            <div className="feature_content2">What time is it?</div>
         </div>
-    </div>
-  );
+    );
 }
 
 export default Features;

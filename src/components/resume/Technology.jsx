@@ -5,7 +5,7 @@ const Technology = () =>{
 
     return(
 
-        <div className="technologyContainer" id="Skill">
+        <div className="technologyContainer" id="skill">
             <h1 className="font_pilseung">Skills</h1>
             
             <div className="skillContainer font_eastar">
